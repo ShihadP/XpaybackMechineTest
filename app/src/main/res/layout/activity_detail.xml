@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mvvm.xpaybackmeshinetest.DetailActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_margin="8dp"
+        android:elevation="8dp"
+        app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageview"
+            android:layout_width="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_height="250dp"
+            />
+
+
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="Name"
+            android:background="#D3FFFFFF"
+            android:padding="8dp"
+            android:textSize="30dp"
+            android:lines="1"
+            android:textColor="@color/black"
+            android:maxLines="1"
+            android:layout_gravity="bottom"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="Address"
+            android:background="#D3FFFFFF"
+            android:padding="8dp"
+            android:textSize="20dp"
+            android:lines="1"
+            android:textColor="@color/purple_500"
+            android:maxLines="1"
+            android:layout_gravity="bottom"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+        <TextView
+            android:id="@+id/place"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="Place"
+            android:background="#D3FFFFFF"
+            android:padding="8dp"
+            android:textSize="20dp"
+            android:lines="1"
+            android:textColor="@color/purple_500"
+            android:maxLines="1"
+            android:layout_gravity="bottom"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <TextView
+                android:id="@+id/prof"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:text="Prof"
+                android:background="#D3FFFFFF"
+                android:padding="8dp"
+                android:textSize="20dp"
+                android:lines="1"
+                android:textColor="@color/purple_500"
+                android:maxLines="1"
+                android:layout_gravity="bottom"
+                android:textStyle="bold"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="Phone"
+            android:background="#D3FFFFFF"
+            android:padding="8dp"
+            android:textSize="20dp"
+            android:lines="1"
+            android:textColor="@color/purple_500"
+            android:maxLines="1"
+            android:layout_gravity="bottom"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="Email"
+            android:background="#D3FFFFFF"
+            android:padding="8dp"
+            android:textSize="20dp"
+            android:lines="1"
+            android:textColor="@color/purple_500"
+            android:maxLines="1"
+            android:layout_gravity="bottom"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+        <TextView
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="age"
+            android:background="#D3FFFFFF"
+            android:padding="8dp"
+            android:textSize="20dp"
+            android:lines="1"
+            android:textColor="@color/purple_500"
+            android:maxLines="1"
+            android:layout_gravity="bottom"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <TextView
+                android:id="@+id/dob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:text="Dob"
+                android:background="#D3FFFFFF"
+                android:padding="8dp"
+                android:textSize="20dp"
+                android:lines="1"
+                android:textColor="@color/purple_500"
+                android:maxLines="1"
+                android:layout_gravity="bottom"
+                android:textStyle="bold"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <TextView
+                android:id="@+id/blood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:text="bloodGroup"
+                android:background="#D3FFFFFF"
+                android:padding="8dp"
+                android:textSize="20dp"
+                android:lines="1"
+                android:textColor="@color/purple_500"
+                android:maxLines="1"
+                android:layout_gravity="bottom"
+                android:textStyle="bold"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
